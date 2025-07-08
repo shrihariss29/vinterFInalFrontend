@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL:"https://ec2-184-73-128-194.compute-1.amazonaws.com:8080"
+    baseURL:`${window.location.origin}/vinterbash`
 })
 
 export default instance;
